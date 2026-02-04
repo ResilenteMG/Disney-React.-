@@ -1,16 +1,35 @@
-# React + Vite
+# 🏰 Disney Universe Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una plataforma interactiva diseñada para ofrecer la mejor experiencia visual al explorar el vasto catálogo de personajes de Disney. Este proyecto toma la API oficial y la eleva con una interfaz moderna, limpia y libre de errores visuales.
 
-Currently, two official plugins are available:
+## 🌟 Una Experiencia Mejorada
+A diferencia de otros visualizadores, esta plataforma se enfoca en la **consistencia**. Hemos optimizado la entrega de datos para que la navegación sea fluida y visualmente atractiva, asegurando que cada personaje tenga su lugar, incluso cuando la fuente original presenta fallos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Galería de Personajes
+La interfaz utiliza un diseño de tarjetas moderno que prioriza la imagen y la identidad de cada personaje.
 
-## React Compiler
+| Exploración de Personajes | Identidad Visual Unificada |
+| :--- | :--- |
+| ![Vista de la galería](./Desktop/disney/src/assets/imag/image_799018.jpg) | ![Optimización de imágenes](./Desktop/disney/src/assets/imag/image_79905c.jpg) |
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+> **Expectativa vs Realidad:** La web implementa una capa de inteligencia visual que rellena espacios vacíos de la API con iconos representativos, manteniendo la estética mágica de Disney en todo momento.
 
-## Expanding the ESLint configuration
+## 🚀 Características Principales
+* **Navegación Intuitiva:** Interfaz diseñada para descubrir personajes de forma rápida.
+* **Optimización de Recursos:** Carga inteligente de elementos multimedia.
+* **Diseño Responsivo:** Adaptado para una visualización clara en diferentes pantallas.
+* **Estética Dark Mode:** Un entorno elegante que hace resaltar los colores de los personajes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Stack Tecnológico
+* **React + Vite**: Rendimiento de última generación para aplicaciones modernas.
+* **CSS3**: Layouts basados en Flexbox y Grid para lograr una armonía visual perfecta.
+* **Disney API Integration**: Consumo eficiente de datos en tiempo real.
+
+---
+*Desarrollado con atención al detalle para fans y entusiastas de Disney.*
+
+
+   ---
+                         Elaborado por: MELISSA GÓMEZ Coders F5
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/ResilenteMG/Disney-React.-)
