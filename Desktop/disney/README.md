@@ -1,35 +1,75 @@
 # 🏰 Disney Universe Explorer
 
-Una plataforma interactiva diseñada para ofrecer la mejor experiencia visual al explorar el vasto catálogo de personajes de Disney. Este proyecto toma la API oficial y la eleva con una interfaz moderna, limpia y libre de errores visuales.
-
-## 🌟 Una Experiencia Mejorada
-A diferencia de otros visualizadores, esta plataforma se enfoca en la **consistencia**. Hemos optimizado la entrega de datos para que la navegación sea fluida y visualmente atractiva, asegurando que cada personaje tenga su lugar, incluso cuando la fuente original presenta fallos.
-
-## 📸 Galería de Personajes
-La interfaz utiliza un diseño de tarjetas moderno que prioriza la imagen y la identidad de cada personaje.
-
-| Exploración de Personajes | Identidad Visual Unificada |
-| :--- | :--- |
-| ![Vista de la galería](./Desktop/disney/src/assets/imag/image_799018.jpg) | ![Optimización de imágenes](./Desktop/disney/src/assets/imag/image_79905c.jpg) |
-
-> **Expectativa vs Realidad:** La web implementa una capa de inteligencia visual que rellena espacios vacíos de la API con iconos representativos, manteniendo la estética mágica de Disney en todo momento.
-
-## 🚀 Características Principales
-* **Navegación Intuitiva:** Interfaz diseñada para descubrir personajes de forma rápida.
-* **Optimización de Recursos:** Carga inteligente de elementos multimedia.
-* **Diseño Responsivo:** Adaptado para una visualización clara en diferentes pantallas.
-* **Estética Dark Mode:** Un entorno elegante que hace resaltar los colores de los personajes.
-
-## 🛠️ Stack Tecnológico
-* **React + Vite**: Rendimiento de última generación para aplicaciones modernas.
-* **CSS3**: Layouts basados en Flexbox y Grid para lograr una armonía visual perfecta.
-* **Disney API Integration**: Consumo eficiente de datos en tiempo real.
+¡Bienvenido a **Disney Universe**! Una aplicación web interactiva construida con **React** y **Vite** que permite explorar el vasto mundo de personajes de Disney consumiendo su API oficial.
 
 ---
-*Desarrollado con atención al detalle para fans y entusiastas de Disney.*
+
+## 📸 Vista Previa del Proyecto
+
+Aquí puedes ver cómo luce la interfaz con el diseño premium:
+
+![Vista previa de Disney Universe]
+
+<div align="center">
+  <img src="src/assets/imag/captura web.jpeg" width="300" alt="Vista previa Disney Universe">
+</div>
 
 
-   ---
-                         Elaborado por: MELISSA GÓMEZ Coders F5
+---
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/ResilenteMG/Disney-React.-)
+## 🚀 Características
+* **Visualización Dinámica**: Cuadrícula organizada con tarjetas de personajes que muestran su nombre y películas.
+* **Diseño Premium**: Interfaz oscura inspirada en Disney+ con Header y Footer personalizados.
+* **Header Optimizado**: Logo de Mickey y título "Disney Universe" centrados para una identidad de marca clara.
+* **Integración de API**: Consumo de datos en tiempo real mediante servicios asíncronos.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+* **React.js**: Biblioteca principal para la creación de componentes.
+* **Vite**: Herramienta de construcción para un desarrollo rápido.
+* **CSS3**: Estilos personalizados utilizando Flexbox y CSS Grid para la responsividad.
+* **Git/GitHub**: Control de versiones y gestión de repositorio.
+* **Disney API**: Fuente de datos oficial de los personajes.
+
+---
+
+## ⚙️ Instalación y Uso Local
+
+Si deseas clonar este proyecto y ejecutarlo en tu máquina:
+
+1. **Clona el repositorio**:
+   ```bash
+   git clone [https://github.com/ResilenteMG/Disney-React.-.git](https://github.com/ResilenteMG/Disney-React.-.git)
+   
+2. **Entra a la carpeta del proyecto:**
+   ```bash
+    cd Disney-React.
+   ```
+
+3. **Instala las dependencias:**
+   ```bash
+   npm install
+   ```
+
+4. **Inicia el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
+
+Luego abre *http://localhost:5173* en tu navegador para verlo en vivo.
+
+## 📜 Licencia
+
+Este proyecto está bajo la [Licencia MIT](LICENSE). Haz clic en el enlace para leer el texto completo de la autorización.
+
+
+## 👤 Autora
+Proyecto desarrollado con ✨ por **Melissa**.
+
+<a href="https://github.com/ResilenteMG" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://www.linkedin.com/in/melissa-gomez-b97355384/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
