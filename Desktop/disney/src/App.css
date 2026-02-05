@@ -24,3 +24,74 @@
   border-radius: 8px;
   margin-bottom: 10px;
 }
+.app-container {
+  /* ... tus otros estilos ... */
+  background: radial-gradient(circle, #1a1f2c 0%, #0d1017 100%) !important;
+  background-attachment: fixed;
+}
+.disney-header {
+  background-color: #090b13; 
+  height: 120px; /* Aumentamos la altura para que el logo grande quepa bien */
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #333;
+}
+
+.header-content {
+  display: flex;
+  align-items: center; /* Alinea el logo y el texto a la misma altura */
+  justify-content: center;
+  gap: 25px; /* Espacio generoso entre logo y texto */
+  width: 90%; /* Para que tengan espacio de expandirse */
+}
+
+.header-logo {
+  height: 90px !important; /* ¡Aquí lo hacemos grande! Casi el alto del header */
+  width: auto;
+  object-fit: contain;
+}
+
+.header-title {
+  color: white;
+  font-size: 2.5rem; /* Letras más grandes para acompañar al logo */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase; /* Opcional, para darle más fuerza */
+}
+
+.header-title span {
+  color: #0072d2; 
+  font-weight: bold;
+}
+/* --- Estilos del Footer --- */
+.disney-footer {
+  background-color: #090b13;
+  color: #a0a0a0;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+}
+
+.social-links {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+/* Controlamos el tamaño del logo de Disney */
+.header-logo {
+  height: 50px !important;    /* Esto lo hace pequeño y elegante */
+  width: auto !important;      /* Mantiene la proporción para que no se vea estirado */
+  object-fit: contain;         /* Asegura que la imagen no se corte */
+  display: block;
+}
+
+/* Alineamos el logo dentro de su contenedor */
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}

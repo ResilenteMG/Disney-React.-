@@ -73,3 +73,6 @@ Proyecto desarrollado con ✨ por **Melissa**.
 <a href="https://www.linkedin.com/in/melissa-gomez-b97355384/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
+
+
+*Gracias por visitar Disney Universe Explorer. ¡Nos vemos en la próxima aventura!* 🏰🐭
