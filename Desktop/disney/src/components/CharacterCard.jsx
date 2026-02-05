@@ -1,28 +1,26 @@
-import React from 'react';
+// Añade esto arriba de tu función CharacterCard en image_881bda.jpg
 import logoDisney from '../assets/imag/logo disney.jpg'; 
 
 const CharacterCard = ({ character }) => {
-  const fallbackImage = logoDisney;
-
+  const fallbackImage = logoDisney; // Aquí le decimos que use tu logo local
+  
   const handleError = (e) => {
-    // Si la imagen falla al cargar después del primer intento, ponemos el logo
-    e.target.onerror = null; 
     e.target.src = fallbackImage;
   };
 
-  // Esta función decide qué URL mostrar
-  const getImageUrl = () => {
-    // Si no hay URL, o es muy corta, o es la de Baby Panda que sabemos que falla
-    if (!character.imageUrl || character.imageUrl.length < 20 || character.name === "Baby Panda") {
-      return fallbackImage;
-    }
-    return character.imageUrl;
-  };
+  // ... resto de tu lógica que ya tienes bien
+
+  // Esta línea es la clave: 
+  // Si la imagen es la de "Baby Panda" o "Apaches" que ya sabemos que están rotas,
+  // ponemos el logo de entrada. Si no, intentamos cargar la de la API.
+  const initialImage = (character.name === "Baby Panda" || character.name === "Apaches") 
+    ? fallbackImage 
+    : (character.imageUrl || fallbackImage);
 
   return (
     <div className="card-item">
       <img 
-        src={getImageUrl()} 
+        src={initialImage} 
         alt={character.name} 
         onError={handleError} 
       />
@@ -33,4 +31,3 @@ const CharacterCard = ({ character }) => {
 };
 
 export default CharacterCard;
-

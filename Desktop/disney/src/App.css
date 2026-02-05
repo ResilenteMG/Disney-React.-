@@ -43,3 +43,26 @@ h1 {
   color: #0070f3;
   font-size: 2.5rem;
 }
+/* Contenedor principal de las tarjetas */
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Crea columnas automáticas */
+  gap: 20px; /* Espacio entre tarjetas */
+  padding: 20px;
+}
+
+/* Estilo de cada tarjeta individual */
+.character-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* IMPORTANTE: Controlar el tamaño de la imagen */
+.character-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; /* Hace que la imagen encaje sin deformarse */
+}

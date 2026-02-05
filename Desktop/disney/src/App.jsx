@@ -1,26 +1,30 @@
-import { useState, useEffect } from 'react'
-import { getAllCharacters } from './services/disneyService' // Importas el servicio
-import CharacterCard from './components/CharacterCard'     // Importas la card
-import './App.css'
+import { useState, useEffect } from 'react';
+import { getAllCharacters } from './services/disneyService';
+import CharacterCard from './components/CharacterCard';
 
 function App() {
-  const [characters, setCharacters] = useState([])
+  const [characters, setCharacters] = useState([]);
 
   useEffect(() => {
-    // Llamamos a la función que creaste en services
-    getAllCharacters().then(data => setCharacters(data))
-  }, [])
+    // Definimos la función asíncrona dentro del efecto
+    const fetchDisneyData = async () => {
+      const data = await getAllCharacters();
+      setCharacters(data);
+    };
+
+    fetchDisneyData();
+  }, []);
 
   return (
-    <div className="App">
-      <h1>Disney API Project</h1>
-      <div className="characters-grid">
-        {characters.map(char => (
+    <div className="app-container">
+      <h1>Disney Universe</h1>
+      <div className="character-grid">
+        {characters.map((char) => (
           <CharacterCard key={char._id} character={char} />
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

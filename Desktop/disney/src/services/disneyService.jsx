@@ -1,14 +1,16 @@
 import axios from 'axios';
 
-const API_URL = 'https://api.disneyapi.dev/character';
+const api = axios.create({
+  baseURL: 'https://api.disneyapi.dev'
+});
 
-// Cambia getCharacters por getAllCharacters
+// ASEGÚRATE DE QUE SE LLAME ASÍ:
 export const getAllCharacters = async () => {
   try {
-    const response = await axios.get(API_URL);
-    return response.data.data; // La API de Disney devuelve los personajes en .data
+    const response = await api.get('/character');
+    return response.data.data;
   } catch (error) {
-    console.error("Error fetching Disney characters:", error);
-    throw error;
+    console.error("Error:", error);
+    return [];
   }
 };
